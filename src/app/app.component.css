@@ -1,0 +1,51 @@
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(225, 225, 255);
+    padding: 10px;
+}
+
+.right {
+    width: 70%;
+    height: 100%;
+}
+
+.chat-messages {
+    height: 80%;
+    padding: 10px;
+}
+
+.chat-form {
+    height: 20%;
+    background-color: rgb(235, 235, 235);
+}
+
+.timestamp {
+    font-size: x-small;
+    color: rgb(209, 209, 209);
+}
+
+#chat-input {
+    width: 100%;
+    height: 70%;
+    border: 0px solid grey;
+    border-top: 2px solid rgb(206, 206, 206);
+    padding: 5px;
+}
+
+#submit-form {
+    width: 100%;
+    height: 30%;
+    border: 0px solid grey;
+    cursor: pointer;
+}
+
+
+
